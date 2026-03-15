@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <!-- 基础频道信息（固定值） -->
+    <title>微笑着前进Bright - 读书心得</title>
+    <link>https://prickly-lavender-61e.notion.site/jhs</link>
+    <description>每日阅读、AI洞察、个人成长、思考</description>
+    <language>zh-cn</language>
+    <copyright>© 2026 Bright. All rights reserved.</copyright>
+    <lastBuildDate>每次生成时更新为当前时间，RFC 2822 格式</lastBuildDate>
+    
+    <!-- iTunes特定字段（固定值） -->
+    <itunes:author>Bright</itunes:author>
+    <itunes:owner>
+      <itunes:name>Bright</itunes:name>
+      <itunes:email>thomasz0927@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Business">
+      <itunes:subcategory text="Investing"/>
+    </itunes:category>
+    <itunes:image href="https://raw.githubusercontent.com/thomas0927/notion2podcast-rss/main/podcast-cover-3000x3000.JPG"/>
+    
+    <itunes:summary>每日精选投资洞察与AI应用分析</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:new-feed-url>https://thomas0927.github.io/notion2podcast-rss/feed.xml</itunes:new-feed-url>
+    
+    <!-- ↓ 单集模板：每次新增一个 <item>，所有 {{}} 占位符用实际数据替换 ↓ -->
+    <item>
+      <title>测试单集</title>
+      <description>Notion记录描述</description>
+      <itunes:summary>Notion记录描述</itunes:summary>
+      <itunes:image href="https://raw.githubusercontent.com/thomas0927/notion2podcast-rss/main/podcast-cover-3000x3000.JPG"/>
+      
+      <!-- 音频文件：必须是 Release Asset 下载地址，不能用 blob URL -->
+      <enclosure 
+        url="https://github.com/thomas0927/notion2podcast-rss/releases/download/ep-test-001/Bug.AI.m4a" 
+        length="47631303" 
+        type="audio/mp4"/>
+      
+      <itunes:author>Bright</itunes:author>
+      <itunes:duration> 00:24:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2026</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      
+      <pubDate>Sat, 14 Mar 2026 12:00:00 +0800</pubDate>
+      <guid isPermaLink="false">Notion记录页面ID</guid>
+      
+      <content:encoded><![CDATA[
+        Notion记录正文内容，HTML格式
+      ]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
